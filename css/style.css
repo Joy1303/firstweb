@@ -6,3 +6,11 @@ body {
     color: yellow;
     margin-left: 20px;
   }
+  #para1 {
+    text-align: center;
+    color: rgb(0, 255, 234);
+  }
+  .center {
+    text-align: center;
+    color: rgb(55, 216, 6);
+  }

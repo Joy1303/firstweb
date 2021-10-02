@@ -14,21 +14,24 @@
     <form>
         <p> ชื่อ : <input type="text"> </p>
         <p> นามสกุล : <input type="text"> </p>
+        <p> E-mail : <input type="email"> </p>
         <p> วันเกิด : <input type="date"> </p>
         <p> น้ำหนัก : <input type="number" min="1" max="500"> </p>
-        <p> E-mail : <input type="email"> </p>
+        <p> ส่วนสูง : <input type="number" min="1" max="200"> </p>
+        <label for="myfile"> ใส่รูปภาพ : </label> <input type ="file" id="myfile" name="myfile">
         <p> Username : <input type="text"> </p>
         <p> Password : <input type="password"> </p>
         <p> Gender : <input type="radio" name="gender" value="Male"> ชาย
-                    <input type="radio" name="gender" value="Female"> หญิง
-
-        <p> วิชาที่ชอบ : <input type="checkbox" name="Subject1" value="C++"> C++
-                       <input type="checkbox" name="Subject2" value="Elec"> Elec
-                       <input type="checkbox" name="Subject3" value="Basic"> Basic
+                     <input type="radio" name="gender" value="Female"> หญิง
+        
+        <p> สีที่ชอบ : <input type="color"> </p>
+        <p> ประเทศที่ชอบ : <input type="checkbox" name="Country1" value="Thailand"> Thailand
+                          <input type="checkbox" name="Country2" value="Korea"> Korea
+                          <input type="checkbox" name="Country3" value="Switzerland"> Switzerland
         </p>
 
-        <p> <input type="submit"> 
-        <input type="reset" value="Cancle"> </p>
+        <p> <input type="submit" value="ตกลง"> 
+        <input type="reset" value="ยกเลิก"> </p>
     </form>
 </body>
 </html>
